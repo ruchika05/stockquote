@@ -14,7 +14,7 @@ service:
   name: stock-quote-service
   type: NodePort
   servicePort: 9080
-  nodePort: 31002
+  nodePort: 51002
 hpa:
   enabled: false
   minReplicas: 1
